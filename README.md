@@ -6,8 +6,8 @@
 2. Body (req.body.user_id)
 3. Path Variables (req.params.user_id)
 
-GET ( 조회 )
-POST ( 생성 ) : 보통 Body에 데이터를 담아서 전송
-PUT ( 전체 데이터 수정 ) : 보통 Body에 수정할 데이터 담아서 전송
-PATCH ( 단일 데이터 수정 ) : 보통 Query Params, Path Variables와 Body를 혼합 사용
+GET ( 조회 ) <br>
+POST ( 생성 ) : 보통 Body에 데이터를 담아서 전송 <br>
+PUT ( 전체 데이터 수정 ) : 보통 Body에 수정할 데이터 담아서 전송 <br>
+PATCH ( 단일 데이터 수정 ) : 보통 Query Params, Path Variables와 Body를 혼합 사용 <br>
 DELETE ( 삭제 ) : 보통 Query Params, Path Variables를 사용
